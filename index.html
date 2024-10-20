@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style/css.css" rel="stylesheet" type="text/css">
+    <script src="script/script1.js"></script>
+    <title>Create your Winter Theme - Snow Falls</title>
+</head>
+
+<body>
+    <h1 id="theme"></h1>
+    <div class="wrapper">
+    </div>
+    <form class="myForm">
+        <div class="color">
+            <div class="DIYcolor" id="myColor">Step1: Please choose your gradient colors</div>
+            <div class="container">
+                <input type="color" id="DIYcolor1" value="#091a22" name="myColor">
+                <input type="color" id="DIYcolor2" value="#091a22" name="myColor">
+            </div>
+        </div>
+        <div class="snow-img">
+            <div class="snow-style" id="Snowflake">Step2: Please choose a snow style</div>
+            <button type="button" class="luckySnowflake" name="Snowflake">Get your lucky snowflake</button>
+            <div class="container snow">
+                <div class="card">
+                    <div class="front">1</div>
+                    <div class="back"><img src="img/1.svg" width=80 alt="snowflake sample1"></div>
+                </div>
+                <div class="card">
+                    <div class="front">2</div>
+                    <div class="back"><img src="img/2.svg" width=80 alt="snowflake sample1"></div>
+                </div>
+                <div class="card">
+                    <div class="front">3</div>
+                    <div class="back"><img src="img/3.svg" width=80 alt="snowflake sample1"></div>
+                </div>
+                <div class="card">
+                    <div class="front">4</div>
+                    <div class="back"><img src="img/4.svg" width=80 alt="snowflake sample1"></div>
+                </div>
+                <div class="card">
+                    <div class="front">5</div>
+                    <div class="back"><img src="img/5.svg" width=80 alt="snowflake sample1"></div>
+                </div>
+                <div class="card">
+                    <div class="front">6</div>
+                    <div class="back"><img src="img/6.svg" width=80 alt="snowflake sample1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <button type="button" class="submit">Create your theme<img src="img/paper-airplane.png"
+                    alt="a white paper plane icone" class="plane"></button>
+            <button type="reset" class="reset">Cancel</button>
+        </div>
+        <div class="validBox">
+            <div class="alert"></div>
+            <div class="process">
+                <button type="button" id="confirm">ok</button>
+                <button type="button" id="cancel">back</button>
+            </div>
+        </div>
+    </form>
+    <div class="snowpage">
+        <button type="button" id="playAgain">Play Again</button>
+    </div>
+    <audio controls id="music">
+        <source src="./img/jingle-bells.mp3" type="audio/mpeg">
+      </audio>
+</body>
+
+</html>
